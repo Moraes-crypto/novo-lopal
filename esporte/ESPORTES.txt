@@ -1,0 +1,21 @@
+ESPORTES:
+---------
+<!Doctype html>
+<html>
+	<body>
+		<h2>O que o JavaScript pode fazer</h2>
+		<p>O JavaScript pode alterar atributos HTML</p>
+		<p>
+			Neste caso o JavaScript muda o valor do 
+			atributo src (source) de uma iamgem.
+		</p>
+
+		<button onclick="document.getElementById('minhaImagem').src=
+			'volei.png'">ESSE</button>
+
+		<img id="minhaImagem"  style="width:100px">
+
+		<button onclick="document.getElementById('minhaImagem').src=
+			'futebol.png'"> OU ESSE</button>
+	</body>
+</html>
