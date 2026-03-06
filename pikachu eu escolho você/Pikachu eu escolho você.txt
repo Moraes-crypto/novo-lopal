@@ -1,0 +1,21 @@
+Pikachu eu escolho você:
+------------------------
+<!Doctype html>
+<html>
+	<body>
+		<h2>O que o JavaScript pode fazer</h2>
+		<p>O JavaScript pode alterar atributos HTML</p>
+		<p>
+			Neste caso o JavaScript muda o valor do 
+			atributo src (source) de uma iamgem.
+		</p>
+
+		<button onclick="document.getElementById('minhaImagem').src=
+			'pikachu.png'">SAIA DA POKEBOLA</button>
+
+		<img id="minhaImagem" src="pokebola.png" style="width:100px">
+
+		<button onclick="document.getElementById('minhaImagem').src=
+			'pokebola.png'"> ENTRE NA POKEBOLA</button>
+	</body>
+</html>
